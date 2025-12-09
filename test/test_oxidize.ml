@@ -9,10 +9,10 @@ let test name f =
   try
     f ();
     incr tests_passed;
-    Printf.printf "✓ %s\n" name
+    Printf.printf "Done %s\n" name
   with e ->
     incr tests_failed;
-    Printf.printf "✗ %s: %s\n" name (Printexc.to_string e)
+    Printf.printf "Failed %s: %s\n" name (Printexc.to_string e)
 
 let assert_eq msg expected actual =
   if expected <> actual then
