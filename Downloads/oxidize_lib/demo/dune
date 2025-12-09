@@ -1,9 +1,0 @@
-(executable
- (name demo)
- (modules demo)
- (libraries oxidizeLib))
-
-(executable
- (name type_error_demo)
- (modules type_error_demo)
- (libraries oxidizeLib))

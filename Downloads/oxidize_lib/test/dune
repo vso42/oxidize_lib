@@ -1,4 +1,0 @@
-(executable
- (name test_oxidize)
- (modules test_oxidize)
- (libraries oxidizeLib))
