@@ -1,0 +1,4 @@
+(library
+ (name oxidizeLib)
+ (public_name oxidize_lib)
+ (modules modes locality uniqueness modality oxidizeLib))
